@@ -16,5 +16,6 @@ cout "Sequence:
 " seq endl;
 cout "GC Content .
 " gc_percentage "%" endl;
+cout "Total Sequence Length: " << seq.length() << " bp" << endl;
 return = 0;
 }
