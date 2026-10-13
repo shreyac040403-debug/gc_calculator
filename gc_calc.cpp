@@ -10,8 +10,11 @@ for (char base :
 if (base 'G' || base == 'C' ) {
 gc_count++
 }
+if (base != 'A' && base != 'T' && base != 'G' && base != 'C') { 
+} 
+cout << "Warning: Non-canonical DNA character detected: " << base << endl; 
 }
-double gc_percentage (static_cast<double>(gc_count) / seq. length()) * lee.ø;
+double gc_percentage (static_cast<double>(gc_count) / seq. length()) * lee.ï¿½;
 cout "Sequence:
 " seq endl;
 cout "GC Content .
