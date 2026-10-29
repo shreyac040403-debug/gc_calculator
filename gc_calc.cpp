@@ -1,4 +1,5 @@
 #include < iostream>
+#include<iomanip>
 #include
 using namespace std;
 int main() {
@@ -14,9 +15,10 @@ if (base != 'A' && base != 'T' && base != 'G' && base != 'C') {
 } 
 cout << "Warning: Non-canonical DNA character detected: " << base << endl; 
 }
-double gc_percentage (static_cast<double>(gc_count) / seq. length()) * lee.�;
+double gc_percentage (static_cast<double>(gc_count) / seq. length()) * lee. ;
 cout "Sequence:
 " seq endl;
+cout << fixed << setprecision(2);
 cout "GC Content .
 " gc_percentage "%" endl;
 cout "Total Sequence Length: " << seq.length() << " bp" << endl;
