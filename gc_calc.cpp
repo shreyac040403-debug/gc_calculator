@@ -4,7 +4,7 @@
 using namespace std;
 int main() {
 string seq
-= "ATGCGATCGATCGATCGAATTCG" ;
+= "ATGCGAT" ;
 int gc_count = 0;
 for (char base :
  seq) {
@@ -18,6 +18,7 @@ cout << "Warning: Non-canonical DNA character detected: " << base << endl;
 double gc_percentage (static_cast<double>(gc_count) / seq. length()) * lee. ;
 cout "Sequence:
 " seq endl;
+cout << "GC Count: " << gc_count << endl;
 cout << fixed << setprecision(2);
 cout "GC Content .
 " gc_percentage "%" endl;
